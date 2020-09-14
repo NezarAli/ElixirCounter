@@ -24,7 +24,7 @@ Elixir Counter is an android app that gets you your opponent's deck as soon as y
   </a>
 </div>
 
-<br><br><br><br>
+<br><br><br>
 <b>Step by step:</b>
 <br><br>
 
