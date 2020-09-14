@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:ignore="Uselearent">
+
+        <brackets.elixircounter.shared.views.CustomButton
+            android:id="@+id/openButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:padding="@dimen/_3"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:text="@string/open_clash_royale"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_10"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <brackets.elixircounter.shared.views.CustomButton
+            android:id="@+id/startButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:padding="@dimen/_3"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:text="@string/start_elixir_counter"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_10"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/modeButtonLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <brackets.elixircounter.shared.views.CustomButton
+                android:id="@+id/modeButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/red"
+                android:gravity="center"
+                android:padding="@dimen/_3"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Mode" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/infoButtonLayout"
+                android:layout_width="@dimen/_25"
+                android:layout_height="@dimen/_30"
+                android:layout_margin="@dimen/_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/infoButton"
+                    android:layout_width="@dimen/_16"
+                    android:layout_height="@dimen/_16"
+                    android:background="@drawable/icon_question_mark"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

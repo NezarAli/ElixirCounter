@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:ignore="Uselearent">
+
+        <brackets.elixircounter.shared.views.CustomButton
+            android:id="@+id/retryButton"
+            android:layout_width="@dimen/_25"
+            android:layout_height="@dimen/_25"
+            android:background="@drawable/icon_retry" />
+
+    </LinearLayout>
+
+</LinearLayout>

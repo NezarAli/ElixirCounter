@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <brackets.elixircounter.shared.views.CustomTextView
+        android:id="@+id/elixirText"
+        android:layout_width="@dimen/_30"
+        android:layout_height="@dimen/_30"
+        android:background="@drawable/icon_elixir"
+        android:gravity="center"
+        android:paddingStart="@dimen/_3"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_13"
+        tools:ignore="RtlSymmetry"
+        tools:text="1" />
+
+    <brackets.elixircounter.shared.views.CustomTextView
+        android:id="@+id/confidenceText"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_20"
+        android:background="@drawable/square_primary"
+        android:gravity="center"
+        android:padding="@dimen/_3"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_10"
+        tools:text="100%" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="mirror">28000006</integer>
+    <integer name="elixir_collector">27000007</integer>
+</resources>
