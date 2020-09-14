@@ -57,4 +57,4 @@ Elixir Counter is an android app that gets you your opponent's deck as soon as y
 
 ## Note
 
-This app costs money to keep it running (hosting costs + other services costs) + I mainly made so I could make profit from ... so, some code parts are intentionally removed to prevent redistributing the app without ads.
+This app costs money to keep it fully running and functional (hosting costs + other used services costs) ... so, some code parts are intentionally removed to prevent redistributing the app without ads.
