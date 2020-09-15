@@ -12,7 +12,8 @@ Elixir Counter is an android app that gets you your opponent's deck as soon as y
 <a href="https://elixircounter.com" target="_blank"><b>Download APK</b></a>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/NezarAli/ElixirCounter/master/images/promo.jpg" width="540" height="480"/>
+  <img src="https://raw.githubusercontent.com/NezarAli/ElixirCounter/master/images/promo 1.jpg" width="308" height="548" style="display: inline;"/>
+  <img src="https://raw.githubusercontent.com/NezarAli/ElixirCounter/master/images/promo 2.jpg" width="308" height="548" style="display: inline;"/>
 </div>
 
 ## Tutorial
